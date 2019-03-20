@@ -1,0 +1,2 @@
+# jprog
+http://allaboutscala.com/ https://www.tutorialspoint.com/scala/ https://www.scala-lang.org/ https://www.coursera.org/specializations/scala https://scastie.scala-lang.org/ https://docs.scala-lang.org/tour/basics.html https://alvinalexander.com/scala/how-sort-scala-sequences-seq-list-array-buffer-vector-ordering-ordered https://www.scala-lang.org/old/sites/default/files/linuxsoft_archives/docu/files/ScalaByExample.pdf
