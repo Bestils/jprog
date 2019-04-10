@@ -1,4 +1,4 @@
-package UG.cw3
+package UG.cw4
 
 object zadanie5 {
 
