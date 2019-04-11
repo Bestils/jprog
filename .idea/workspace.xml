@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00e700f1-5c32-4b4f-8536-32ace7bd593a" name="Default Changelist" comment="" />
+    <list default="true" id="00e700f1-5c32-4b4f-8536-32ace7bd593a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie4.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/UG/cw8/zadanie1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/UG/cw8/zadanie5.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/UG/wyklad/wyklad7.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/ExampleSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/ExampleSpec.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/codewars/DigPowTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/codewars/DigPowTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/codewars/KataTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/codewars/KataTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/META-INF/FIRST.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/ExampleSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/codewars/DigPowTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/codewars/DigPowTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/codewars/KataTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -62,10 +78,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw8/zadanie1.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/UG/wyklad/wyklad7.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/codewars/KataTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-column="2" selection-end-line="18" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie2.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/codewars/Kata.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="153">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#17#59#0" expanded="true" />
               </folding>
@@ -73,29 +125,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw2/zaad1.scala">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/codewars/WrongEndHead.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="34">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/build.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie3.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="136">
+              <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -103,20 +146,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/codewars/DigPowTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-              <folding>
-                <element signature="e#18#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/myWork/MethodNotations.scala">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+              <caret line="11" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -125,24 +156,15 @@
         <entry file="file://$PROJECT_DIR$/src/test/scala/ExampleSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/src/lectures/part2oop/AbstractDataTypes.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <caret line="7" column="22" selection-start-column="2" selection-end-line="20" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -163,106 +185,108 @@
         <option value="$PROJECT_DIR$/src/main/scala/codewars/removeEveryOther.scala" />
         <option value="$PROJECT_DIR$/project/build.properties" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/test/scala/codewars/DigPowTest.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/codewars/KataTest.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/ExampleSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/myWork/MethodNotations.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/codewars/DigPow.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/codewars/Kata.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie1.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie4.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie3.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw2/zaad1.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie3.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie4.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/UG/cw8/zadanie5.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/ExampleSpec.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/codewars/DigPowTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/codewars/KataTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/UG/cw8/zadanie1.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie2.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1772" />
-    <option name="y" value="-123" />
-    <option name="width" value="971" />
-    <option name="height" value="517" />
+    <option name="x" value="206" />
+    <option name="y" value="-15" />
+    <option name="width" value="1370" />
+    <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="FIRST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FIRST" type="462c0819:PsiDirectoryNode" />
+              <item name="jprog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jprog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FIRST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FIRST" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FIRST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FIRST" type="462c0819:PsiDirectoryNode" />
+              <item name="jprog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jprog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FIRST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FIRST" type="462c0819:PsiDirectoryNode" />
+              <item name="jprog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jprog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FIRST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FIRST" type="462c0819:PsiDirectoryNode" />
+              <item name="jprog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jprog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FIRST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FIRST" type="462c0819:PsiDirectoryNode" />
+              <item name="jprog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jprog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="codewars" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FIRST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FIRST" type="462c0819:PsiDirectoryNode" />
+              <item name="jprog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jprog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="UG" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FIRST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FIRST" type="462c0819:PsiDirectoryNode" />
+              <item name="jprog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jprog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="UG" type="462c0819:PsiDirectoryNode" />
+              <item name="cw2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FIRST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FIRST" type="462c0819:PsiDirectoryNode" />
+              <item name="jprog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jprog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FIRST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FIRST" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="codewars" type="462c0819:PsiDirectoryNode" />
+              <item name="UG" type="462c0819:PsiDirectoryNode" />
+              <item name="cw8" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553079235962" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554896780750" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -294,7 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.KataTest">
+  <component name="RunManager" selected="Application.Zadanie2">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="UG.cw1.Main" />
       <module name="FIRST" />
@@ -308,25 +332,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOBasics" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="myWork.OOBasics" />
+    <configuration name="Zadanie2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="UG.cw8.Zadanie2" />
       <module name="FIRST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myWork.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="palindrom" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="cw1.palindrom" />
-      <module name="FIRST" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UG.cw1.*" />
+          <option name="PATTERN" value="UG.cw8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -340,6 +351,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tlumaczenia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zadanie1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="UG.cw8.zadanie1" />
+      <module name="FIRST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UG.cw8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -366,11 +390,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Zadanie2" />
+        <item itemvalue="Application.zadanie1" />
         <item itemvalue="ScalaTest.KataTest" />
         <item itemvalue="ScalaTest.KataTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.palindrom" />
-        <item itemvalue="Application.OOBasics" />
       </list>
     </recent_temporary>
   </component>
@@ -401,7 +425,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3105328218272" />
+        <entry key="$PROJECT_DIR$" value="3108564552669" />
         <entry key="$PROJECT_DIR$/build.sbt" value="448929357" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2567920773" />
       </map>
@@ -435,6 +459,9 @@
       <workItem from="1552768074240" duration="1961000" />
       <workItem from="1552813025311" duration="4077000" />
       <workItem from="1553075462130" duration="2292000" />
+      <workItem from="1554282316593" duration="1526000" />
+      <workItem from="1554890105460" duration="6449000" />
+      <workItem from="1554898119429" duration="1062000" />
     </task>
     <servers />
   </component>
@@ -456,13 +483,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54785000" />
+    <option name="totallyTimeSpent" value="66856000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1352" y="-107" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2859304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -471,7 +498,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.53412783" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.25531915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -480,10 +507,11 @@
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.497545" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50226927" side_tool="true" visible="true" weight="0.25531915" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49621785" weight="0.3289689" />
+      <window_info anchor="bottom" id="Documentum" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -491,7 +519,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="sbt" order="5" weight="0.32978722" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.46960485" />
+      <window_info anchor="right" id="Database" order="7" weight="0.4689864" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
@@ -500,6 +528,16 @@
     <option name="version" value="1" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/test/scala/ExampleSpec.scala</url>
+          <line>4</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="x+y&gt;9&amp;&amp;sum.length&gt;0" />
@@ -591,13 +629,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/NumberFormatException.java" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/src/lectures/part2oop/AnonymousClasses.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -620,20 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/codewars/DigPow.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/codewars/KataTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/build.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -648,13 +666,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/codewars/DigPowTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie1.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie4.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie2.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie3.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw2/zaad1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="e#18#46#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie4.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw8/zadanie5.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -665,16 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/ExampleSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/src/lectures/part2oop/AbstractDataTypes.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -682,27 +705,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/codewars/WrongEndHead.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/codewars/DigPow.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw8/zadanie1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/wyklad/wyklad7.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/codewars/KataTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-column="2" selection-end-line="18" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/codewars/Kata.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="153">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#17#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw2/zaad1.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie3.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="136">
+          <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/codewars/DigPowTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/ExampleSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-column="2" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/codewars/WrongEndHead.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
