@@ -19,20 +19,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scalactic#scalactic_2.12;3.0.5 {compile=[default(compile)]}
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalactic#scalactic_2.12;3.0.5 {compile=[default(compile)]}
-[debug] 		tried C:\Users\gladius\.ivy2\local\org.scalactic\scalactic_2.12\3.0.5\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.scalactic#scalactic_2.12;3.0.5
-[debug] 		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.pom
-[debug] 	public: found md file for org.scalactic#scalactic_2.12;3.0.5
-[debug] 		=> https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.pom (3.0.5)
-[debug] downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.pom
-[debug] 	[SUCCESSFUL ] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.pom(pom.original) (193ms)
-[debug] 		tried C:\Users\gladius\.ivy2\local\org.scalactic\scalactic_2.12\3.0.5\bundles\scalactic_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar
-[debug] 	found org.scalactic#scalactic_2.12;3.0.5 in public
+[debug] sbt-chain: module revision found in cache: org.scalactic#scalactic_2.12;3.0.5
+[debug] 	found org.scalactic#scalactic_2.12;3.0.5 in sbt-chain
 [debug] == resolving dependencies default#first_2.12;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
 [debug] == resolving dependencies default#first_2.12;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -112,32 +100,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.artima.supersafe#sbtplugin;1.1.3 {compile=[default(compile)]}
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.artima.supersafe#sbtplugin;1.1.3 {compile=[default(compile)]}
-[debug] 		tried C:\Users\gladius\.ivy2\local\com.artima.supersafe\sbtplugin\scala_2.12\sbt_1.0\1.1.3\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.artima.supersafe#sbtplugin;1.1.3
-[debug] 		tried https://repo1.maven.org/maven2/com/artima/supersafe/sbtplugin_2.12_1.0/1.1.3/sbtplugin-1.1.3.pom
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/artima/supersafe/sbtplugin_2.12_1.0/1.1.3/sbtplugin-1.1.3.pom
-[debug] 	public: no ivy file found for com.artima.supersafe#sbtplugin;1.1.3
-[debug] 		tried C:\Users\gladius\.sbt\preloaded\com.artima.supersafe\sbtplugin\1.1.3\ivys\ivy.xml
-[debug] 	local-preloaded-ivy: no ivy file found for com.artima.supersafe#sbtplugin;1.1.3
-[debug] 		tried file:/C:/Users/gladius/.sbt/preloaded/com/artima/supersafe/sbtplugin_2.12_1.0/1.1.3/sbtplugin-1.1.3.pom
-[debug] 	local-preloaded: no ivy file found for com.artima.supersafe#sbtplugin;1.1.3
-[debug] 		tried http://repo.artima.com/releases/com/artima/supersafe/sbtplugin_2.12_1.0/1.1.3/sbtplugin-1.1.3.pom
-[debug] 	Artima Maven Repository: found md file for com.artima.supersafe#sbtplugin;1.1.3
-[debug] 		=> http://repo.artima.com/releases/com/artima/supersafe/sbtplugin_2.12_1.0/1.1.3/sbtplugin-1.1.3.pom (1.1.3)
-[debug] downloading http://repo.artima.com/releases/com/artima/supersafe/sbtplugin_2.12_1.0/1.1.3/sbtplugin-1.1.3.pom ...
-[debug] 	Artima Maven Repository: downloading http://repo.artima.com/releases/com/artima/supersafe/sbtplugin_2.12_1.0/1.1.3/sbtplugin-1.1.3.pom
-[debug] 	Artima Maven Repository: downloading http://repo.artima.com/releases/com/artima/supersafe/sbtplugin_2.12_1.0/1.1.3/sbtplugin-1.1.3.pom.sha1
-[debug] sha1 OK for http://repo.artima.com/releases/com/artima/supersafe/sbtplugin_2.12_1.0/1.1.3/sbtplugin-1.1.3.pom
-[debug] 	[SUCCESSFUL ] com.artima.supersafe#sbtplugin;1.1.3!sbtplugin.pom(pom.original) (622ms)
-[debug] 		tried C:\Users\gladius\.ivy2\local\com.artima.supersafe\sbtplugin\1.1.3\jars\sbtplugin.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/artima/supersafe/sbtplugin/1.1.3/sbtplugin-1.1.3.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/artima/supersafe/sbtplugin/1.1.3/sbtplugin-1.1.3.jar
-[debug] 		tried C:\Users\gladius\.sbt\preloaded\com.artima.supersafe\sbtplugin\1.1.3\jars\sbtplugin.jar
-[debug] 		tried file:/C:/Users/gladius/.sbt/preloaded/com/artima/supersafe/sbtplugin/1.1.3/sbtplugin-1.1.3.jar
-[debug] 		tried http://repo.artima.com/releases/com/artima/supersafe/sbtplugin/1.1.3/sbtplugin-1.1.3.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.artima.com/releases/com/artima/supersafe/sbtplugin/1.1.3/sbtplugin-1.1.3.jar
-[debug] 	found com.artima.supersafe#sbtplugin;1.1.3 in Artima Maven Repository
+[debug] sbt-chain: module revision found in cache: com.artima.supersafe#sbtplugin;1.1.3
+[debug] 	found com.artima.supersafe#sbtplugin;1.1.3 in sbt-chain
 [debug] == resolving dependencies default#first_2.12;0.1->com.artima.supersafe#sbtplugin;1.1.3 [compile->runtime]
 [debug] == resolving dependencies default#first_2.12;0.1->com.artima.supersafe#sbtplugin;1.1.3 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.8 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -356,20 +320,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.12;3.0.5 {test=[default(compile)]}
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalatest#scalatest_2.12;3.0.5 {test=[default(compile)]}
-[debug] 		tried C:\Users\gladius\.ivy2\local\org.scalatest\scalatest_2.12\3.0.5\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.scalatest#scalatest_2.12;3.0.5
-[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.pom
-[debug] 	public: found md file for org.scalatest#scalatest_2.12;3.0.5
-[debug] 		=> https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.pom (3.0.5)
-[debug] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.pom
-[debug] 	[SUCCESSFUL ] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.pom(pom.original) (196ms)
-[debug] 		tried C:\Users\gladius\.ivy2\local\org.scalatest\scalatest_2.12\3.0.5\bundles\scalatest_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.jar
-[debug] 	found org.scalatest#scalatest_2.12;3.0.5 in public
+[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.12;3.0.5
+[debug] 	found org.scalatest#scalatest_2.12;3.0.5 in sbt-chain
 [debug] == resolving dependencies default#first_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->runtime]
 [debug] == resolving dependencies default#first_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -494,6 +446,124 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies default#first_2.12;0.1->junit#junit;4.12 [test->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] sbt-chain: Checking cache for: dependency: junit#junit;4.12 {test=[default(compile)]}
+[debug] sbt-chain-delegate: Checking cache for: dependency: junit#junit;4.12 {test=[default(compile)]}
+[debug] 		tried C:\Users\gladius\.ivy2\local\junit\junit\4.12\ivys\ivy.xml
+[debug] 	local: no ivy file found for junit#junit;4.12
+[debug] 		tried https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom
+[debug] 	public: found md file for junit#junit;4.12
+[debug] 		=> https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom (4.12)
+[debug] downloading https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom
+[debug] 	[SUCCESSFUL ] junit#junit;4.12!junit.pom(pom.original) (235ms)
+[debug] 		tried C:\Users\gladius\.ivy2\local\junit\junit\4.12\jars\junit.jar
+[debug] 		tried https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar
+[debug] 	found junit#junit;4.12 in public
+[debug] == resolving dependencies default#first_2.12;0.1->junit#junit;4.12 [test->runtime]
+[debug] == resolving dependencies default#first_2.12;0.1->junit#junit;4.12 [test->compile]
+[debug] == resolving dependencies junit#junit;4.12->org.hamcrest#hamcrest-core;1.3 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] sbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried C:\Users\gladius\.ivy2\local\org.hamcrest\hamcrest-core\1.3\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.hamcrest#hamcrest-core;1.3
+[debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+[debug] 	public: found md file for org.hamcrest#hamcrest-core;1.3
+[debug] 		=> https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom (1.3)
+[debug] downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+[debug] 	[SUCCESSFUL ] org.hamcrest#hamcrest-core;1.3!hamcrest-core.pom(pom.original) (185ms)
+[debug] sbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-parent;1.3 {}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.hamcrest#hamcrest-parent;1.3 {}
+[debug] 		tried C:\Users\gladius\.ivy2\local\org.hamcrest\hamcrest-parent\1.3\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.hamcrest#hamcrest-parent;1.3
+[debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+[debug] 	public: found md file for org.hamcrest#hamcrest-parent;1.3
+[debug] 		=> https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom (1.3)
+[debug] downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+[debug] 	[SUCCESSFUL ] org.hamcrest#hamcrest-parent;1.3!hamcrest-parent.pom(pom.original) (185ms)
+[debug] 		tried C:\Users\gladius\.ivy2\local\org.hamcrest\hamcrest-parent\1.3\jars\hamcrest-parent.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.jar
+[debug] 		tried C:\Users\gladius\.sbt\preloaded\org.hamcrest\hamcrest-parent\1.3\jars\hamcrest-parent.jar
+[debug] 		tried file:/C:/Users/gladius/.sbt/preloaded/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.jar
+[debug] 		tried http://repo.artima.com/releases/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.artima.com/releases/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.jar
+[debug] 		tried C:\Users\gladius\.ivy2\local\org.hamcrest\hamcrest-core\1.3\jars\hamcrest-core.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[debug] 	found org.hamcrest#hamcrest-core;1.3 in public
+[debug] == resolving dependencies junit#junit;4.12->org.hamcrest#hamcrest-core;1.3 [compile->compile(*)]
+[debug] == resolving dependencies junit#junit;4.12->org.hamcrest#hamcrest-core;1.3 [compile->runtime(*)]
+[debug] == resolving dependencies junit#junit;4.12->org.hamcrest#hamcrest-core;1.3 [compile->compile]
+[debug] == resolving dependencies junit#junit;4.12->org.hamcrest#hamcrest-core;1.3 [runtime->runtime(*)]
+[debug] == resolving dependencies junit#junit;4.12->org.hamcrest#hamcrest-core;1.3 [runtime->compile]
+[debug] == resolving dependencies default#first_2.12;0.1->junit#junit;4.12 [test->master]
+[debug] == resolving dependencies default#first_2.12;0.1->com.novocode#junit-interface;0.11 [test->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] sbt-chain: Checking cache for: dependency: com.novocode#junit-interface;0.11 {test=[default(compile)]}
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.novocode#junit-interface;0.11 {test=[default(compile)]}
+[debug] 		tried C:\Users\gladius\.ivy2\local\com.novocode\junit-interface\0.11\ivys\ivy.xml
+[debug] 	local: no ivy file found for com.novocode#junit-interface;0.11
+[debug] 		tried https://repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.pom
+[debug] 	public: found md file for com.novocode#junit-interface;0.11
+[debug] 		=> https://repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.pom (0.11)
+[debug] downloading https://repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.pom
+[debug] 	[SUCCESSFUL ] com.novocode#junit-interface;0.11!junit-interface.pom(pom.original) (182ms)
+[debug] 		tried C:\Users\gladius\.ivy2\local\com.novocode\junit-interface\0.11\jars\junit-interface.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.jar
+[debug] 	found com.novocode#junit-interface;0.11 in public
+[debug] == resolving dependencies default#first_2.12;0.1->com.novocode#junit-interface;0.11 [test->runtime]
+[debug] == resolving dependencies default#first_2.12;0.1->com.novocode#junit-interface;0.11 [test->compile]
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.11 [compile->master(compile)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.12 [compile->master(compile)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.11 [compile->compile(*)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.12 [compile->compile(*)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->org.scala-sbt#test-interface;1.0 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#test-interface;1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
+[debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->org.scala-sbt#test-interface;1.0 [compile->compile(*)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->org.scala-sbt#test-interface;1.0 [compile->runtime(*)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->org.scala-sbt#test-interface;1.0 [compile->compile]
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.11 [runtime->runtime(*)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.12 [runtime->runtime(*)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.12 [runtime->compile]
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->org.scala-sbt#test-interface;1.0 [runtime->compile]
+[debug] == resolving dependencies default#first_2.12;0.1->com.novocode#junit-interface;0.11 [test->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for default#first_2.12;0.1 [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -995,6 +1065,77 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies default#first_2.12;0.1->junit#junit;4.12 [test->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies default#first_2.12;0.1->junit#junit;4.12 [test->runtime]
+[debug] == resolving dependencies default#first_2.12;0.1->junit#junit;4.12 [test->compile]
+[debug] == resolving dependencies junit#junit;4.12->org.hamcrest#hamcrest-core;1.3 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies junit#junit;4.12->org.hamcrest#hamcrest-core;1.3 [compile->compile(*)]
+[debug] == resolving dependencies junit#junit;4.12->org.hamcrest#hamcrest-core;1.3 [runtime->runtime(*)]
+[debug] == resolving dependencies junit#junit;4.12->org.hamcrest#hamcrest-core;1.3 [runtime->compile]
+[debug] == resolving dependencies default#first_2.12;0.1->junit#junit;4.12 [test->master]
+[debug] == resolving dependencies default#first_2.12;0.1->com.novocode#junit-interface;0.11 [test->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies default#first_2.12;0.1->com.novocode#junit-interface;0.11 [test->runtime]
+[debug] == resolving dependencies default#first_2.12;0.1->com.novocode#junit-interface;0.11 [test->compile]
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.11 [compile->master(compile)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.12 [compile->master(compile)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.11 [compile->compile(*)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.12 [compile->compile(*)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->org.scala-sbt#test-interface;1.0 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->org.scala-sbt#test-interface;1.0 [compile->compile(*)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.11 [runtime->runtime(*)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.12 [runtime->runtime(*)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->junit#junit;4.12 [runtime->compile]
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.novocode#junit-interface;0.11->org.scala-sbt#test-interface;1.0 [runtime->compile]
+[debug] == resolving dependencies default#first_2.12;0.1->com.novocode#junit-interface;0.11 [test->master]
 [debug] == resolving dependencies for default#first_2.12;0.1 [optional]
 [debug] == resolving dependencies for default#first_2.12;0.1 [provided]
 [debug] resolving dependencies for configuration 'plugin'
@@ -1135,30 +1276,130 @@
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar
-[debug] 		tried http://repo.artima.com/releases/com/artima/supersafe/sbtplugin_2.12_1.0/1.1.3/sbtplugin-1.1.3.jar
+[debug] no default ivy user dir defined: set to C:\Users\gladius\.ivy2
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(bundle)
+[debug] no default ivy user dir defined: set to C:\Users\gladius\.ivy2
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.jar
+[debug] no default ivy user dir defined: set to C:\Users\gladius\.ivy2
+[debug] 	[NOT REQUIRED] com.artima.supersafe#sbtplugin;1.1.3!sbtplugin.jar
+[debug] no default ivy user dir defined: set to C:\Users\gladius\.ivy2
+[debug] 		tried https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar
+[info] downloading https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar
+[debug] no default ivy user dir defined: set to C:\Users\gladius\.ivy2
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\gladius\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to C:\Users\gladius\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to C:\Users\gladius\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to C:\Users\gladius\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to C:\Users\gladius\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] settings loaded (55ms)
+[debug] 	default cache: C:\Users\gladius\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 		tried https://repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.jar
+[info] downloading https://repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.jar
+[debug] no default ivy user dir defined: set to C:\Users\gladius\.ivy2
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] settings loaded (78ms)
+[debug] 	default cache: C:\Users\gladius\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] no default cache defined: set to C:\Users\gladius\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)
+[debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[info] downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[debug] settings loaded (78ms)
+[debug] 	default cache: C:\Users\gladius\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar
-[info] downloading http://repo.artima.com/releases/com/artima/supersafe/sbtplugin_2.12_1.0/1.1.3/sbtplugin-1.1.3.jar ...
-[debug] 	Artima Maven Repository: downloading http://repo.artima.com/releases/com/artima/supersafe/sbtplugin_2.12_1.0/1.1.3/sbtplugin-1.1.3.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar.sha1
-[debug] 	Artima Maven Repository: downloading http://repo.artima.com/releases/com/artima/supersafe/sbtplugin_2.12_1.0/1.1.3/sbtplugin-1.1.3.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar
-[info] 	[SUCCESSFUL ] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(bundle) (522ms)
-[debug] sha1 OK for http://repo.artima.com/releases/com/artima/supersafe/sbtplugin_2.12_1.0/1.1.3/sbtplugin-1.1.3.jar
-[info] 	[SUCCESSFUL ] com.artima.supersafe#sbtplugin;1.1.3!sbtplugin.jar (1157ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.jar
-[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(bundle) (1496ms)
-[debug] :: resolution report :: resolve 2895ms :: artifacts dl 1502ms
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (20ms)
+[debug] 	default cache: C:\Users\gladius\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/C:/Users/gladius/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (108ms)
+[debug] settings loaded (118ms)
+[debug] 	default cache: C:\Users\gladius\.ivy2\cache
+[debug] 	default cache: C:\Users\gladius\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar
+[info] 	[SUCCESSFUL ] junit#junit;4.12!junit.jar (473ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.jar
+[info] 	[SUCCESSFUL ] com.novocode#junit-interface;0.11!junit-interface.jar (459ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[info] 	[SUCCESSFUL ] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar (503ms)
+[debug] :: resolution report :: resolve 6066ms :: artifacts dl 620ms
 [debug] 	report for default#first_2.12;0.1 compile produced in C:\Users\gladius\SCALAProjects\FIRST\target\scala-2.12\resolution-cache\reports\default-first_2.12-compile.xml
 [debug] 	report for default#first_2.12;0.1 runtime produced in C:\Users\gladius\SCALAProjects\FIRST\target\scala-2.12\resolution-cache\reports\default-first_2.12-runtime.xml
 [debug] 	report for default#first_2.12;0.1 test produced in C:\Users\gladius\SCALAProjects\FIRST\target\scala-2.12\resolution-cache\reports\default-first_2.12-test.xml
@@ -1170,5 +1411,5 @@
 [debug] 	report for default#first_2.12;0.1 plugin produced in C:\Users\gladius\SCALAProjects\FIRST\target\scala-2.12\resolution-cache\reports\default-first_2.12-plugin.xml
 [debug] 	report for default#first_2.12;0.1 pom produced in C:\Users\gladius\SCALAProjects\FIRST\target\scala-2.12\resolution-cache\reports\default-first_2.12-pom.xml
 [debug] 	report for default#first_2.12;0.1 scala-tool produced in C:\Users\gladius\SCALAProjects\FIRST\target\scala-2.12\resolution-cache\reports\default-first_2.12-scala-tool.xml
-[debug] 	resolve done (2895ms resolve - 1502ms download)
+[debug] 	resolve done (6066ms resolve - 620ms download)
 [info] Done updating.
