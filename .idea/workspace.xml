@@ -3,39 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="00e700f1-5c32-4b4f-8536-32ace7bd593a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/UG/cw3/zadanie5.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/UG/cw3/zadanie5.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/UG/cw3/zadanie6.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/UG/cw3/zadanie6.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie4.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie4.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/exercism/HelloWorld.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/cw3/zadanie5$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/UG/cw3/zadanie5$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/cw3/zadanie5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/UG/cw3/zadanie5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/cw3/zadanie6$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/UG/cw3/zadanie6$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/cw3/zadanie6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/UG/cw3/zadanie6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/cw8/Zadanie4$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/UG/cw8/Zadanie4$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/cw8/Zadanie4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/UG/cw8/Zadanie4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/codewars/Tribonacci$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/codewars/Tribonacci$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/exercism/HelloWorld$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/exercism/HelloWorld$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/exercism/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/first$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/first$sources/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/first$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/first$sources/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-first$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie3.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -123,11 +91,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie2.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+            <state relative-caret-position="210">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie3.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie4.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -217,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw3/zadanie6.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie3.scala" />
       </list>
     </option>
   </component>
@@ -349,7 +336,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555230735116" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555231537587" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -546,7 +533,7 @@
       <workItem from="1554997612097" duration="5236000" />
       <workItem from="1555052752282" duration="641000" />
       <workItem from="1555165811213" duration="1636000" />
-      <workItem from="1555224758872" duration="4595000" />
+      <workItem from="1555224758872" duration="5473000" />
     </task>
     <task id="LOCAL-00001" summary="a Lot work later , make 2 ug packages , some codewars">
       <created>1554645250561</created>
@@ -576,7 +563,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555027507283</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="5 AND 6 FROM 3 ; 1 AND 2 FROM 4">
+      <created>1555230778468</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555230778468</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -612,7 +606,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95639000" />
+    <option name="totallyTimeSpent" value="96517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1352" y="-107" width="1936" height="1056" extended-state="6" />
@@ -660,7 +654,8 @@
     <MESSAGE value="a Lot work later , make 2 ug packages , some codewars and resolved confilts" />
     <MESSAGE value="add Junit dependency. Make tribonacii" />
     <MESSAGE value="finished tribonacii" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished tribonacii" />
+    <MESSAGE value="5 AND 6 FROM 3 ; 1 AND 2 FROM 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="5 AND 6 FROM 3 ; 1 AND 2 FROM 4" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -780,13 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie3.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw3/zadanie4.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -795,13 +783,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/exercism/HelloWorld.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie4.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie5.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1009,8 +990,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        <state relative-caret-position="210">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie4.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
