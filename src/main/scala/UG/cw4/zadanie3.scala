@@ -13,5 +13,5 @@ object zadanie3 {
   def -[A](s1: MSet[A], s2: MSet[A]): MSet[A] = (a:A)=>    if(s1(a)-s2(a)> 0) s1(a)-s2(a) else s2(a)-s1(a)
 
 
-  def &[A](s1: MSet[A], s2: MSet[A]): MSet[A] = /* ... */
+  def &[A](s1: MSet[A], s2: MSet[A]): MSet[A] = ???
 }

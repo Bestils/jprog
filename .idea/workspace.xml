@@ -3,7 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="00e700f1-5c32-4b4f-8536-32ace7bd593a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie2.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie3.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie4.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie4.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/cw4/zadanie1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/cw4/zadanie1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/cw4/zadanie2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/cw4/zadanie2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/cw4/zadanie3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/cw4/zadanie3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/cw4/zadanie4$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/cw4/zadanie4.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -94,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie2.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="189">
+              <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -112,8 +122,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie4.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="354">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -202,8 +212,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie4.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw3/zadanie6.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie1.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie3.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie4.scala" />
       </list>
     </option>
   </component>
@@ -336,7 +347,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555231537587" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555236870094" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -380,13 +391,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.zadanie6">
-    <configuration name="Tribonacci" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="codewars.Tribonacci" />
+  <component name="RunManager" selected="Application.zadanie4">
+    <configuration name="Zadanie4" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="UG.cw8.Zadanie4" />
       <module name="FIRST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codewars.*" />
+          <option name="PATTERN" value="UG.cw8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -394,12 +405,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zadanie4" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="UG.cw8.Zadanie4" />
+    <configuration name="zadanie4" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="UG.cw4.zadanie4" />
       <module name="FIRST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UG.cw8.*" />
+          <option name="PATTERN" value="UG.cw4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -445,11 +456,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.zadanie4" />
         <item itemvalue="Application.zadanie6" />
         <item itemvalue="Application.Zadanie4" />
         <item itemvalue="Scala Console.Scala Console" />
         <item itemvalue="JUnit.TribonacciTest" />
-        <item itemvalue="Application.Tribonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -533,7 +544,7 @@
       <workItem from="1554997612097" duration="5236000" />
       <workItem from="1555052752282" duration="641000" />
       <workItem from="1555165811213" duration="1636000" />
-      <workItem from="1555224758872" duration="5473000" />
+      <workItem from="1555224758872" duration="9105000" />
     </task>
     <task id="LOCAL-00001" summary="a Lot work later , make 2 ug packages , some codewars">
       <created>1554645250561</created>
@@ -570,7 +581,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555230778468</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="3 in 4 ended">
+      <created>1555231627185</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555231627185</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -606,13 +624,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96517000" />
+    <option name="totallyTimeSpent" value="100149000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1352" y="-107" width="1936" height="1056" extended-state="6" />
+    <frame x="1352" y="-221" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26972282" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26972282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -621,7 +639,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23510292" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23510292" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -633,7 +651,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32502708" />
+      <window_info active="true" anchor="bottom" id="Messages" order="14" visible="true" weight="0.32502708" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -655,7 +673,8 @@
     <MESSAGE value="add Junit dependency. Make tribonacii" />
     <MESSAGE value="finished tribonacii" />
     <MESSAGE value="5 AND 6 FROM 3 ; 1 AND 2 FROM 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="5 AND 6 FROM 3 ; 1 AND 2 FROM 4" />
+    <MESSAGE value="3 in 4 ended" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 in 4 ended" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -988,13 +1007,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie3.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1002,10 +1014,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie4.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="354">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
