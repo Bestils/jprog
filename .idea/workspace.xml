@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="00e700f1-5c32-4b4f-8536-32ace7bd593a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/UG/cw5/zadanie2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/UG/cw5/zadanie2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/UG/cw5/zadanie3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/UG/cw5/zadanie3.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,11 +73,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw5/zadanie2.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+            <state relative-caret-position="272">
+              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw5/zadanie3.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -152,10 +161,10 @@
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie5.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie6.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/UG/cw5/zadanie3.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw5/zadanie4.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw5/zadanie1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw5/zadanie2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/UG/cw5/zadanie3.scala" />
       </list>
     </option>
   </component>
@@ -250,7 +259,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555327878818" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555328327903" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -523,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555320298182</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2 from  5">
+      <created>1555327910562</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1555327910574</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -559,7 +575,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107094000" />
+    <option name="totallyTimeSpent" value="107543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -613,7 +629,8 @@
     <MESSAGE value="little correction in 2/4" />
     <MESSAGE value="clean and prepared lab 5 enviroment" />
     <MESSAGE value="1 from 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 from 5" />
+    <MESSAGE value="2 from  5" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 from  5" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -908,13 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw5/zadanie3.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw5/zadanie4.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -969,8 +979,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw5/zadanie2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state relative-caret-position="272">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw5/zadanie3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
