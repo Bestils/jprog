@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00e700f1-5c32-4b4f-8536-32ace7bd593a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie3.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie4.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/UG/cw8/zadanie1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/UG/cw8/zadanie5.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/UG/wyklad/wyklad7.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/ExampleSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/ExampleSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/codewars/DigPowTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/codewars/DigPowTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/codewars/KataTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/codewars/KataTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/META-INF/FIRST.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/ExampleSpec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/codewars/DigPowTest$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/codewars/DigPowTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/codewars/KataTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -107,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie2.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="290">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -204,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="206" />
     <option name="y" value="-15" />
     <option name="width" value="1370" />
@@ -462,6 +448,7 @@
       <workItem from="1554282316593" duration="1526000" />
       <workItem from="1554890105460" duration="6449000" />
       <workItem from="1554898119429" duration="1062000" />
+      <workItem from="1555318464062" duration="133000" />
     </task>
     <servers />
   </component>
@@ -483,13 +470,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66862000" />
+    <option name="totallyTimeSpent" value="67294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2859304" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.290469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -743,6 +729,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/codewars/WrongEndHead.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie3.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -764,17 +757,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/codewars/WrongEndHead.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="290">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
