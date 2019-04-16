@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00e700f1-5c32-4b4f-8536-32ace7bd593a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/UG/kolos1/my4.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/UG/cw6/zadanie1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/UG/cw6/zadanie2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/UG/cw6/zadanie3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/UG/cw6/zadanie4.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -87,37 +90,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw5/zadanie4.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/src/lectures/part4pm/PatternsEverywhere.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/UG/kolos1/zad4.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="272">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/UG/kolos1/my4.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/UG/kolos1/my4.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw6/zadanie1.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+            <state relative-caret-position="306">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw6/zadanie2.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw6/zadanie4.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw6/zadanie3.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -141,28 +162,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw4/zadanie6.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/UG/kolos1/my1.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/UG/kolos1/my2.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -199,7 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/myWork/OOBasics.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/cw1/palindrom.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/codewars/DigPowTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/codewars/ExampleSpec.scala" />
@@ -250,6 +252,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/UG/kolos1/zad3.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/kolos1/my3.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/kolos1/my4.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/UG/cw6/zadanie1.scala" />
       </list>
     </option>
   </component>
@@ -316,7 +319,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="UG" type="462c0819:PsiDirectoryNode" />
-              <item name="cw7" type="462c0819:PsiDirectoryNode" />
+              <item name="cw6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FIRST" type="b2602c69:ProjectViewProjectNode" />
@@ -325,7 +328,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="UG" type="462c0819:PsiDirectoryNode" />
-              <item name="kolos1" type="462c0819:PsiDirectoryNode" />
+              <item name="cw7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FIRST" type="b2602c69:ProjectViewProjectNode" />
@@ -349,7 +352,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555449466454" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555450619231" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -376,9 +379,9 @@
       <recent name="org.scalatest.FunSuite" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gladius\SCALAProjects\FIRST\src\main\scala\UG" />
       <recent name="C:\Users\gladius\SCALAProjects\FIRST\src\main\scala\UG\kolos1" />
       <recent name="C:\Users\Maria\scala\jprog\src\main\scala\UG" />
-      <recent name="C:\Users\gladius\SCALAProjects\FIRST\src\main\scala\UG" />
       <recent name="C:\Users\gladius\SCALAProjects\FIRST\src\main\scala\UG\cw3" />
       <recent name="C:\Users\gladius\SCALAProjects\FIRST\src\main\scala\UG\cw4" />
     </key>
@@ -554,7 +557,7 @@
       <workItem from="1555165811213" duration="1636000" />
       <workItem from="1555224758872" duration="10444000" />
       <workItem from="1555338728909" duration="1459000" />
-      <workItem from="1555424290435" duration="12437000" />
+      <workItem from="1555424290435" duration="13611000" />
     </task>
     <task id="LOCAL-00001" summary="a Lot work later , make 2 ug packages , some codewars">
       <created>1554645250561</created>
@@ -661,7 +664,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555448274497</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="4 zrobione true">
+      <created>1555449496450</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1555449496450</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -697,7 +707,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122196000" />
+    <option name="totallyTimeSpent" value="123370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1352" y="-107" width="1936" height="1056" extended-state="6" />
@@ -757,7 +767,8 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/Bestils/jprog&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/scala/UG/cw4/zadanie6.scala" />
     <MESSAGE value="3 zrobione" />
     <MESSAGE value="3 zrobione true" />
-    <option name="LAST_COMMIT_MESSAGE" value="3 zrobione true" />
+    <MESSAGE value="4 zrobione true" />
+    <option name="LAST_COMMIT_MESSAGE" value="4 zrobione true" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -768,28 +779,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/dyskretna/CongurenceRelation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw3/zadanie4.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/exercism/HelloWorld.scala" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar!/scala/collection/immutable/List.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1199">
-          <caret line="218" column="15" selection-start-line="218" selection-start-column="15" selection-end-line="218" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie3.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1110,15 +1099,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/UG/kolos1/zad4.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/UG/kolos1/my4.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+        <state relative-caret-position="238">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw6/zadanie4.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw6/zadanie3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw6/zadanie2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw6/zadanie1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
