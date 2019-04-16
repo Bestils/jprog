@@ -13,6 +13,6 @@ def checkElement[A](seq:Seq[A],ind:Int)(leq:(A) => Boolean): Boolean = {
 helper(seq,ind,0)(leq)
 }
 var seq = Seq(1,2,3)
-println(checkElement(seq, 1)(_<3))
+println(checkElement(seq, 45)(_<3))
 println(checkElement(seq, 1)(_<2))
 }

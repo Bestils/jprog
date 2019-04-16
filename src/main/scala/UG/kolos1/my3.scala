@@ -1,18 +1,23 @@
 package UG.kolos1
 
-object my2 extends App{
+import UG.kolos1.zad3.checkElement
 
-  def pot[A,B,C](seq:Seq[A])(op1: A=>B)(op2: A=>C): Seq[(B,C)]={
+object my3 extends App{
 
-    def helper[A,B,C](seq:Seq[A],acc:Seq[(B,C)])(op1: A=>B)(op2: A=>C): Seq[(B,C)]=seq match{
-      case Seq() => acc
-      case a+: Seq() => acc:+(op1(a),op2(a))
-      case a+: r => helper(r,acc:+(op1(a),op2(a)))(op1)(op2)
+  def checkElement[A](seq:Seq[A],ind:Int)(leq:(A) => Boolean): Boolean = {
+
+    def helper[A](seq:Seq[A],ind:Int,i:Int)(leq:(A) => Boolean): Boolean = seq match {
+      case Seq() =>   false
+      case a+: r if i==ind  =>  leq(a)
+      case a+: r  => helper(r,ind,i=i+1)(leq)
+
 
 
     }
-    helper(seq,Seq())(op1)(op2)
+    helper(seq,ind,0)(leq)
+
   }
-  var seq = Seq(1,2,3,4,5)
-  println(pot(seq)(_*2)(_*3))
+  var seq = Seq(1,2,3)
+  println(checkElement(seq, 45)(_<3))
+  println(checkElement(seq, 1)(_<2))
 }

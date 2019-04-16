@@ -1,6 +1,6 @@
 package UG.kolos1
 
-object Main extends App {
+object zad4 extends App {
 
 def inverseCompress[A](seq:Seq[(A,Int)]): Seq[A] = {
     def helper[A](seq:Seq[(A,Int)], acc: Seq[A]): Seq[A] = {
