@@ -2,18 +2,22 @@ package UG.cw6
 
 object zadanie4 extends App{
 
-//  Stwórz generyczną funkcję rekurencyjną:
-  //def compress[A](seq: Seq[A]): Seq[(A, Int)] = /* ... */
-  //która zastąpi każdy element sekwencji seq parą
-  // (element, długość_podciągu) Zdefiniuj funkcję z użyciem rekurencji ogonowej.
-  //Przykład:
-  //Dla: seq = Seq('a', 'a', 'b', 'c', 'c', 'c', 'a', 'a', 'b', 'd'), funckja powinna zwrócić:
-  // Seq(('a',2), ('b', 1), ('c', 3), ('a', 2), ('b', 1), ('d', 1)).
-  def compress[A](seq: Seq[A]): Seq[(A, Int)] = ???
-// {
-//   def compressHelper[A](seq: Seq[A]): Seq[(A,Int)]
-// }
+// . Stwórz generyczną funkcję rekurencyjną:
+  //def compute[A,B](seq: Seq[A])(init: B)(op: (A, B) => B): B = /* ... */
+  //która korzystając z wartości początkowej oraz funkcji op oblicz "wartość" ciągu s. Zdefiniuj funkcję z użyciem rekurencji ogonowej.
+  //Przykłady:
+  //Dla: seq = Seq(1,2,3,4), init = 0, op = (_ + _), funckja powinna zwrócić: 10.
+  //Dla: seq = Seq(1,2,3,4), init = 1, op = (_ * _), funckja powinna zwrócić: 24.
+  //Dla: seq = Seq("kota"," ","ma"," ","ala"), init = "", op = (_ + _), funckja powinna zwrócić: "ala ma kota".
 
+  def compute[A,B](seq: Seq[A])(init: B)(op: (A, B) => B): B ={
+
+    def helper[A,B](seq: Seq[A])(init: B)(op: (A, B) => B): B = seq match{
+      case Seq(a) => acc
+      case a +:b+: r => helper(op(a,b)+:r)(op)
+
+    }
+  }
 
 }
 //21708623

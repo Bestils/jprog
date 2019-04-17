@@ -23,4 +23,5 @@ println(lengthStrings(seq1,seq2))
 
   //2 zwróć  2 seq jeden x2 drugi x3
   //3 sprawdz czy elemend pod danym indekstem w seq spełnia leq
+//  https://inf.ug.edu.pl/~wpawlowski/lab/JP/
 }
