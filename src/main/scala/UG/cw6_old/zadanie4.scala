@@ -1,4 +1,4 @@
-package UG.cw6
+package UG.cw6_old
 
 object zadanie4 extends App{
 
