@@ -10,6 +10,9 @@ object zadanie4 extends App{
   //Dla: seq = Seq('a', 'a', 'b', 'c', 'c', 'c', 'a', 'a', 'b', 'd'), funckja powinna zwrócić:
   // Seq(('a',2), ('b', 1), ('c', 3), ('a', 2), ('b', 1), ('d', 1)).
   def compress[A](seq: Seq[A]): Seq[(A, Int)] = ???
+// {
+//   def compressHelper[A](seq: Seq[A]): Seq[(A,Int)]
+// }
 
 
 }

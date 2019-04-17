@@ -1,0 +1,5 @@
+package myWork
+
+class hofsCurries {
+
+}
