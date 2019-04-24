@@ -13,7 +13,7 @@ object Zadanie3 {
 
 
       case Seq() => acc
-      case a +: r if a==el => helper(r,el,i+1,acc:+i)
+      case a +: r if a==el => helper(r,el,i+1,acc+i)
       case a +: r => helper(r,el,i+1,acc)
 
 
@@ -21,8 +21,8 @@ object Zadanie3 {
     helper(seq,el,0,Set())
 
 
-
-    seq.zipWithIndex.filter(_==el)=>_.2
+//
+//    seq.zipWithIndex.filter((a,b),a==el)=>b
 
   }
 
