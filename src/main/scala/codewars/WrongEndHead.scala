@@ -1,5 +1,5 @@
 package codewars
 
-object WrongEndHead {
+object WrongEndHead extends App{
 
 }

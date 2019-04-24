@@ -7,4 +7,28 @@ object Zadanie3 {
   //Przykład:
   //Dla: seq = Seq(1, 2, 1, 1, 5), el = 1, funkcja powinna zwrócić: Set(0, 2, 3).
   //Dla: seq = Seq(1, 2, 1, 1, 5), el = 7, funkcja powinna zwrócić: Set().
+  def indices[A](seq: Seq[A], el: A): Set[Int] ={
+
+    def helper(seq: Seq[A], el: A , i : Int , acc : Set[Int]):Set [Int] = seq match {
+
+
+      case Seq() => acc
+      case a +: r if a==el => helper(r,el,i+1,acc:+i)
+      case a +: r => helper(r,el,i+1,acc)
+
+
+    }
+    helper(seq,el,0,Set())
+
+
+
+    seq.zipWithIndex.filter(_==el)=>_.2
+
+  }
+
+
+
+
+
+
 }
