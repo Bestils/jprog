@@ -11,7 +11,7 @@
 //  //które wykorzystają funckję compute. Zdefiniuj funkcję z użyciem rekurencji ogonowej.
 //
 //  def compute[A,B](seq: Seq[A])(init: B)(op: (A, B) => B): B = {
-//    @tailrec
+//
 //    def aux (seq: Seq[A], out: B ): B = seq match {
 //      case e +: r => aux(r, op(e, out))
 //      case Seq() => out
@@ -28,9 +28,9 @@
 //  //c.
 //  def applyforall[A, B](a: Seq[A], f: A => B): Seq[B] = compute(a)(Seq(): Seq[B])((a: A, out: Seq[B]) => f(a) +: out).reverse
 //
-//  //d.
-//  def filter[A](a: Seq[A], pred: A=>Boolean): Seq[A] = compute(a)(Seq(): Seq[A])((a: A, out: Seq[A]) =>
-//    if(pred(a)) a +: out else out).reverse
+////d.
+//def filter[A](a: Seq[A], pred: A=>Boolean): Seq[A] = compute(a)(Seq(): Seq[A])((a: A, out: Seq[A]) =>
+//  if(pred(a)) a +: out else out).reverse
 //
 //  //e.
 //  def forall[A](a: Seq[A], pred: A=>Boolean): Boolean = compute(a)(true)((a: A, out: Boolean) =>
