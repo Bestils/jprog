@@ -1,15 +1,29 @@
 package UG.dyskretna.domowe
 
+import scala.collection.mutable
+
 object zadanie5 extends App{
 
 
 
 
 
-  def RPN(expr :String) :String = {
-    val stack = collection.mutable.Stack[Double]()
+  def RPN(expr :String) :String ={
+
+
+
+    val s1 = collection.mutable.Stack[Char]()// trzyma znaki
+    val s2 = collection.mutable.Stack[Char]() // trzyma liczby
     val list:List[Char]=List()
 
+    def helper(expr:Seq[String],stak1:collection.mutable.Stack[Char],stak2:collection.mutable.Stack[Char]) = expr match {
+      case Seq() => ""
+      case a+: r if a== "(" => helper(acc,r) // tworzymy nowe wywołanie funkcji dla całego pozostałego wyrtażenia od (
+      case a+: r if a== ")" => return s1+s2+helper(acc,r) // zwracamy to co było w nawiasie i wywołujemy helpera dla reszty aby to scalić
+      case a+: r if a >= 0  && a<= 9 => s2.push(a); helper(acc,r,s1,s2)
+      case a+: r => s1.push(a); helper(acc,r,s1,s2)
+
+    }
   }
 
 //    def evaluate(expr :String) :Double = {
