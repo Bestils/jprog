@@ -12,19 +12,24 @@ object zadanie5 extends App{
 
 
 
-    val s1 = collection.mutable.Stack[Char]()// trzyma znaki
-    val s2 = collection.mutable.Stack[Char]() // trzyma liczby
-    val list:List[Char]=List()
 
-    def helper(expr:Seq[String],stak1:collection.mutable.Stack[Char],stak2:collection.mutable.Stack[Char]) = expr match {
-      case Seq() => ""
-      case a+: r if a== "(" => helper(acc,r) // tworzymy nowe wywołanie funkcji dla całego pozostałego wyrtażenia od (
-      case a+: r if a== ")" => return s1+s2+helper(acc,r) // zwracamy to co było w nawiasie i wywołujemy helpera dla reszty aby to scalić
-      case a+: r if a >= 0  && a<= 9 => s2.push(a); helper(acc,r,s1,s2)
-      case a+: r => s1.push(a); helper(acc,r,s1,s2)
+
+
+    def helper(expr:Seq[Char],stak1:collection.mutable.Stack[Char],stak2:collection.mutable.Stack[Char]) :String = expr match {
+      case Seq() => stak1+""+stak2
+      case Seq(a) => stak1+""+stak2+a
+      case a+: r if a== '(' => helper(r,stak1,stak2) // tworzymy nowe wywołanie funkcji dla całego pozostałego wyrtażenia od (
+      case a+: r if a== ')' =>  stak1+""+stak2 + helper(r,stak1,stak2.push(a)) // zwracamy to co było w nawiasie i wywołujemy helpera dla reszty aby to scalić
+      case a+: r if (Character.isDigit(a)) =>  helper(r,stak1,stak2.push(a))
+      case a+: r =>  helper(r,stak1.push(a),stak2)
 
     }
+
+    helper(expr.toCharArray.toSeq,mutable.Stack(),mutable.Stack())
   }
+
+
+}
 
 //    def evaluate(expr :String) :Double = {
 //      val stack = collection.mutable.Stack[Double]()
@@ -49,7 +54,7 @@ object zadanie5 extends App{
 //
 //      helper(expr)
 //    }
-  }
+
 
 //To even the odds - wyrównać szanse
 //To ring a bell - przypominać coś już wcześniej napotkanego

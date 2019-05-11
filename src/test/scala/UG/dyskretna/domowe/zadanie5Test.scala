@@ -1,9 +1,18 @@
 package UG.dyskretna.domowe
 
-import codewars.DigPow
-import codewars.DigPowTest._
+import UG.dyskretna.domowe.zadanie5Test._
 import org.scalatest.Assertions._
 import org.scalatest._
+
+
+class zadanie5Test extends FlatSpec {
+  it should "pass basic tests" in {
+    testing("(a+(b*c))",  "abc*+")
+    testing("((a+b)*(z+x))",  "ab+zx+*")
+    testing("((a+t)*((b+(a+c))^(c+d)))",  "at+bac++cd+^*")
+
+  }
+}
 
 object zadanie5Test {
 
@@ -15,15 +24,4 @@ object zadanie5Test {
     println("*")
     assertResult(expect){actual}
   }
-
-class zadanie5Test extends FlatSpec {
-  it should "pass basic tests" in {
-    testing("(a+(b*c))",  "abc*+")
-    testing("((a+b)*(z+x))",  "ab+zx+*")
-    testing("((a+t)*((b+(a+c))^(c+d)))",  "at+bac++cd+^*")
-
-  }
-}
-
-
 }
