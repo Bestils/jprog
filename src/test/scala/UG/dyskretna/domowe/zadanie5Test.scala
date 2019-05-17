@@ -7,9 +7,12 @@ import org.scalatest._
 
 class zadanie5Test extends FlatSpec {
   it should "pass basic tests" in {
-    testing("(a+(b*c))",  "abc*+")
-    testing("((a+b)*(z+x))",  "ab+zx+*")
+    testing("a+b",  "ab+")
     testing("((a+t)*((b+(a+c))^(c+d)))",  "at+bac++cd+^*")
+    testing("((a+b)*(z+x))",  "ab+zx+*")
+
+    testing("(a+(b*c))",  "abc*+")
+
 
   }
 }

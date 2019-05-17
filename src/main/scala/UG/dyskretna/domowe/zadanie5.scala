@@ -1,12 +1,14 @@
 package UG.dyskretna.domowe
 
+import java.util
+
 import scala.collection.mutable
 
 object zadanie5 extends App{
 
 
 
-
+  def isEmpty(x: String) = Option(x).forall(_.isEmpty)
 
   def RPN(expr :String) :String ={
 
@@ -15,17 +17,33 @@ object zadanie5 extends App{
 
 
 
-    def helper(expr:Seq[Char],stak1:collection.mutable.Stack[Char],stak2:collection.mutable.Stack[Char]) :String = expr match {
-      case Seq() => stak1+""+stak2
-      case Seq(a) => stak1+""+stak2+a
-      case a+: r if a== '(' => helper(r,stak1,stak2) // tworzymy nowe wywołanie funkcji dla całego pozostałego wyrtażenia od (
-      case a+: r if a== ')' =>  stak1+""+stak2 + helper(r,stak1,stak2.push(a)) // zwracamy to co było w nawiasie i wywołujemy helpera dla reszty aby to scalić
-      case a+: r if (Character.isDigit(a)) =>  helper(r,stak1,stak2.push(a))
-      case a+: r =>  helper(r,stak1.push(a),stak2)
+ var patern ="*/-+^"
+    def helper(expr:Seq[Char], acc:String, stak1:util.List[util.Stack[Char]], it:Int) :String = expr match {
+      case Seq() if stak1.isEmpty=> acc
+      case Seq() => helper(expr,acc+stak1.get(it).pop(),stak1,it)
+      case a+: r if a== '(' => {
+        stak1.add(new util.Stack())
+        acc + helper(r, "", stak1, it + 1)
+      }
+        // tworzymy nowe wywołanie funkcji dla całego pozostałego wyrtażenia od (
+      case a+: r if a== ')' && stak1.get(it).isEmpty => {
+        stak1.remove(stak1.size() - 1)
+        acc+helper(r,"",stak1,it-1)}
 
+        // zwracamy to co było w nawiasie i wywołujemy helpera dla reszty aby to scalić
+      case a+: r if a== ')' => {
+
+        helper(expr, acc:+stak1.get(it).pop(), stak1, it) // zwracamy to co było w nawiasie i wywołujemy helpera dla reszty aby to scalić}
+
+      }
+      case a+: r if !patern.contains(a) =>  helper(r,acc+Character.toString(a),stak1,it)
+
+
+      case a+: r => { stak1.get(it). push(a)
+        helper(r,acc,stak1,it+1)}
     }
 
-    helper(expr.toCharArray.toSeq,mutable.Stack(),mutable.Stack())
+    helper(expr.toCharArray.toSeq,"",new  util.ArrayList( new util.Stack()),0)
   }
 
 
