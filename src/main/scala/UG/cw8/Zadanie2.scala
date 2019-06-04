@@ -10,8 +10,16 @@ object Zadanie2 extends  App{
   //Dla: seq = Seq(2, 1, 1, 5), el = 1, funkcja powinna zwrócić: Some(2).
   //Dla: seq = Seq(2, 1, 1, 5), el = 7, funkcja powinna zwrócić: None.
 
+  def position2[A](seq: Seq[A], el: A):Int= {
+    seq.zipWithIndex.filter((pair:(A,Int))=> pair._1 == el).head._2
 
+
+
+  }
   def position[A](seq: Seq[A], el: A):Int= {
+
+
+
 
 
   def indexes(seq: Seq[A],el : A)=
@@ -32,7 +40,8 @@ object Zadanie2 extends  App{
 
 
 val  seq = Seq(2, 1, 1, 5)
-  val el = 2
+  val el = 1
 
   println(position(seq,el))
+  println(position2(seq,el))
 }

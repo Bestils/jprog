@@ -18,6 +18,7 @@ object zadanie5 extends App{
 
 
  var patern ="*/-+^"
+
     def helper(expr:Seq[Char], acc:String, stak1:util.List[util.Stack[Char]], it:Int) :String = expr match {
       case Seq() if stak1.isEmpty=> acc
       case Seq() => helper(expr,acc+stak1.get(it).pop(),stak1,it)
@@ -39,8 +40,10 @@ object zadanie5 extends App{
       case a+: r if !patern.contains(a) =>  helper(r,acc+Character.toString(a),stak1,it)
 
 
-      case a+: r => { stak1.get(it). push(a)
-        helper(r,acc,stak1,it+1)}
+      case a+: r  if stak1.isEmpty()=> { stak1.add(new util.Stack())
+       stak1.get(it).push(a)
+
+        helper(r,acc,stak1,it)}
     }
 
     helper(expr.toCharArray.toSeq,"",new  util.ArrayList( new util.Stack()),0)
