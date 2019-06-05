@@ -7,6 +7,16 @@ object Zadanie3 {
   //Przykład:
   //Dla: seq = Seq(1, 2, 1, 1, 5), el = 1, funkcja powinna zwrócić: Set(0, 2, 3).
   //Dla: seq = Seq(1, 2, 1, 1, 5), el = 7, funkcja powinna zwrócić: Set().
+
+
+  def position2[A](seq: Seq[A], el: A): Seq[Int]= {
+    seq.zipWithIndex.filter((pair:(A,Int))=> pair._1 == el).map(pair => pair._2)
+
+
+
+  }
+
+
   def indices[A](seq: Seq[A], el: A): Set[Int] ={
 
     def helper(seq: Seq[A], el: A , i : Int , acc : Set[Int]):Set [Int] = seq match {

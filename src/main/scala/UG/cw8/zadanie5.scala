@@ -9,6 +9,12 @@ object zadanie5 {
   //która usuwa podany prefiks z napisu, np.
   //"ala ma kota".stripPrefix("ala ") -> "ma kota"
 
-
+  def europeanZonesSorted(): Seq[String] = {
+    val zones: Seq[String] = java.util.TimeZone.getAvailableIDs.toSeq
+    println(zones)
+    zones.filter( (s: String) => s.startsWith("Europe") ).map((s: String) => s.stripPrefix("Europe/"))
+      .sortWith((a: String, b: String) => if(a.length == b.length) { a < b } else a.length < b.length)
+      .map((s: String) => "Europe/" + s)
+  }
 
 }
