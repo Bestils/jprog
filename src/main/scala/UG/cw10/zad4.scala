@@ -2,7 +2,7 @@ package UG.cw10
 
 import scala.io.Source
 
-object zad2  extends  App{
+object zad4  extends  App{
 
   val instances: Int = Source.fromFile("src\\laboratoria\\zadania\\cyfry.txt").getLines.toList.
     map((s: String) => s.toList.map((c: Char) => (c + "").toInt)).foldLeft(0)((i: Int, seq: Seq[Int]) => i + f(seq)())
