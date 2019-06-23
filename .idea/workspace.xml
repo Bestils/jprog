@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/scala/UG/kolos2/aakkkaa.scala" line="22" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="00e700f1-5c32-4b4f-8536-32ace7bd593a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/UG/kolos2/zadanie1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/UG/kolos2/zadanie1/resources/napisy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/UG/kolos2/zadanie1/scala/Main.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/myWork/colkolcop.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/UG/cw10/zad4.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/UG/cw10/zad4.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/UG/cw13/zad2.scala" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,22 +60,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie2.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie4.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="3" selection-start-line="12" selection-start-column="2" selection-end-line="17" selection-end-column="3" />
+            <state relative-caret-position="330">
+              <caret line="22" column="61" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/UG/kolos2/zadanie1.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/UG/kolos2/aakkkaa.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/myWork/colkolcop.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
-              <folding>
-                <element signature="e#2352#2371#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -91,16 +90,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie1.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie2.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <caret line="8" column="13" selection-start-line="8" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -109,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie3.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -130,7 +120,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie5.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -186,7 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/UG/kolos1/my2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/kolos1/zad4.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/kolos1/zad3.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/kolos1/my3.scala" />
@@ -211,7 +200,6 @@
         <option value="$PROJECT_DIR$/src/test/scala/codewars/DigPowTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/UG/dyskretna/domowe/zadanie5Test.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/dyskretna/domowe/zadanie5.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie4.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie5.scala" />
@@ -224,7 +212,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw8/zadanie5.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw10/zad2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw10/zad3.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/UG/kolos2/aakkkaa.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw11/ogniem_i_mieczem.txt.url" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw11/zad3.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw11/zad1.scala" />
@@ -235,14 +222,16 @@
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw14/zad1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw14/zad2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw10/zad4.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/UG/kolos2/zadanie1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/kolos2/zadanie1/scala/Main.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/UG/kolos2/aakkkaa.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie1.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/UG/kolos2/zadanie1.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/myWork/colkolcop.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="y" value="-1" />
-    <option name="width" value="1366" />
+    <option name="width" value="1356" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -251,7 +240,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -285,6 +273,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="codewars" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FIRST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="myWork" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FIRST" type="b2602c69:ProjectViewProjectNode" />
@@ -385,6 +381,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -632,7 +629,10 @@
       <workItem from="1559597177197" duration="664000" />
       <workItem from="1559659004802" duration="18516000" />
       <workItem from="1559715746263" duration="3107000" />
-      <workItem from="1559721911499" duration="4937000" />
+      <workItem from="1559721911499" duration="5077000" />
+      <workItem from="1561207907360" duration="83000" />
+      <workItem from="1561208474097" duration="674000" />
+      <workItem from="1561311277520" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="a Lot work later , make 2 ug packages , some codewars">
       <created>1554645250561</created>
@@ -788,7 +788,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559718733195</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Merge branch 'master' of https://github.com/Bestils/jprog&#10;&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit.">
+      <created>1559730119267</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1559730119267</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -824,13 +831,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199430000" />
+    <option name="totallyTimeSpent" value="200361000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1366" height="728" extended-state="4" />
+    <frame x="0" y="0" width="1356" height="728" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.16818182" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.17633587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -891,7 +898,8 @@
     <MESSAGE value="weird method but still dont working" />
     <MESSAGE value="bestia zrobił zadania jak mistrz" />
     <MESSAGE value="wszystkie z cwiczen" />
-    <option name="LAST_COMMIT_MESSAGE" value="wszystkie z cwiczen" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/Bestils/jprog&#10;&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/Bestils/jprog&#10;&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -981,16 +989,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/scala/codewars/DigPowTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-          <folding>
-            <element signature="e#18#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/src/lectures/part4pm/AllThePatterns.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="628">
@@ -1106,9 +1104,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw11/ogniem_i_mieczem.txt.url" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw11/zad4.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw13/zad2.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw13/zad2.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw10/zad4.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1181,16 +1177,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/kolos2/zadanie1/scala/Main.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/kolos2/zadanie1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="6" selection-start-column="91" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/codewars/Kata.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1236,24 +1222,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie4.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie3.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw8/zadanie1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -1264,10 +1236,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/kolos2/aakkkaa.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/kolos2/zadanie1/scala/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie4.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="61" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie4.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie5.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -1285,44 +1309,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie4.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie3.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw8/zadanie1.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie1.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/kolos2/zadanie1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="11" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/kolos2/aakkkaa.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/myWork/colkolcop.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
-          <folding>
-            <element signature="e#2352#2371#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
