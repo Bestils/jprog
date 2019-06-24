@@ -16,7 +16,7 @@ object HierarchyExample extends App{
   case object  PrintSignal
 
   class ParentActor extends  Actor {
-
+    private var number = 0
     private  val children = collection.mutable.Buffer[ActorRef]()
     def receive ={
       case CreateChild =>
