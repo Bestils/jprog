@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00e700f1-5c32-4b4f-8536-32ace7bd593a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/codewars/FindTheOddInt.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/myWork/akkaTut/ActorCountDown.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/myWork/akkaTut/AskPattern.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/myWork/akkaTut/SimpleActorExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/codewars/CamelCaseTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/codewars/FindTheOddIntSpec.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/codewars/WhichAreIn.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/codewars/WhichAreInTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/codewars/CamelCase.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/codewars/CamelCase.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/codewars/FindTheOddInt.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -87,16 +82,16 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/myWork/akkaTut/ActorCountDown.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/myWork/akkaTut/AskPattern.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
               <folding>
                 <element signature="e#24#69#0" expanded="true" />
               </folding>
@@ -104,61 +99,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/codewars/ReplaceWithAlphabetPositionTest.scala">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/codewars/WhichAreIn.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="170">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie2.scala">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/codewars/WhichAreInTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/codewars/FindTheOddIntSpec.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+            <state relative-caret-position="34">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#18#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/codewars/KataTest.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/codewars/CamelCase.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/codewars/DigPow.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/codewars/DigPowTest.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/codewars/CamelCaseTest.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="66" lean-forward="true" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -187,8 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/UG/cw6/zadanie5.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/UG/cw6_old/zadanie4.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw6/zadanie4.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/kolos1/lmielewczyk/zad3.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/kolos1/lmielewczyk/zad2.scala" />
@@ -238,6 +211,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/myWork/akkaTut/SimpleActorExample.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/myWork/akkaTut/ActorCountDown.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/myWork/akkaTut/AskPattern.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/codewars/WhichAreInTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/codewars/WhichAreIn.scala" />
       </list>
     </option>
   </component>
@@ -254,7 +229,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,6 +258,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FIRST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FIRST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="codewars" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FIRST" type="b2602c69:ProjectViewProjectNode" />
@@ -357,13 +339,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561328211842" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561332298059" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
     <property name="last_opened_file_path" value="$USER_HOME$/Exercism/scala/sum-of-multiples" />
@@ -417,7 +400,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AskPattern">
+  <component name="RunManager" selected="ScalaTest.WhichAreInTest">
     <configuration name="ActorCountDown" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="myWork.akkaTut.ActorCountDown" />
       <module name="FIRST" />
@@ -457,27 +440,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CamelCaseTest.the-Stealth-Warrior test dash should theStealthWarrior" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="WhichAreIn" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="codewars.WhichAreIn" />
       <module name="FIRST" />
-      <setting name="path" value="codewars.CamelCaseTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="codewars.CamelCaseTest" />
-      <setting name="testName" value="the-Stealth-Warrior test dash should theStealthWarrior" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codewars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindTheOddIntSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="WhichAreInTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="FIRST" />
-      <setting name="path" value="codewars.FindTheOddIntSpec" />
+      <setting name="path" value="codewars.WhichAreInTest" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -487,18 +465,18 @@
       <setting name="useUiWithSbt" value="false" />
       <envs />
       <setting name="testKind" value="Class" />
-      <setting name="path" value="codewars.FindTheOddIntSpec" />
+      <setting name="path" value="codewars.WhichAreInTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.WhichAreInTest" />
+        <item itemvalue="Application.WhichAreIn" />
         <item itemvalue="Application.AskPattern" />
         <item itemvalue="Application.ActorCountDown" />
         <item itemvalue="Application.SimpleActorExample" />
-        <item itemvalue="ScalaTest.FindTheOddIntSpec" />
-        <item itemvalue="ScalaTest.CamelCaseTest.the-Stealth-Warrior test dash should theStealthWarrior" />
       </list>
     </recent_temporary>
   </component>
@@ -617,7 +595,8 @@
       <workItem from="1561131191302" duration="1338000" />
       <workItem from="1561146901346" duration="282000" />
       <workItem from="1561202961285" duration="1731000" />
-      <workItem from="1561296293783" duration="13295000" />
+      <workItem from="1561296293783" duration="17380000" />
+      <workItem from="1561364938118" duration="756000" />
     </task>
     <task id="LOCAL-00001" summary="a Lot work later , make 2 ug packages , some codewars">
       <created>1554645250561</created>
@@ -780,48 +759,56 @@
       <option name="project" value="LOCAL" />
       <updated>1561307423557</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary=" 4 things from akka and two codewars">
+      <created>1561328246966</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1561328246966</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FindTheOddIntSpec - 2019.06.23 at 19h 58m 45s.xml">
-      <configuration name="FindTheOddIntSpec" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="WhichAreInTest - 2019.06.24 at 00h 51m 55s.xml">
+      <configuration name="WhichAreInTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="FindTheOddIntSpec - 2019.06.23 at 19h 59m 16s.xml">
-      <configuration name="FindTheOddIntSpec" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="WhichAreInTest - 2019.06.24 at 00h 55m 05s.xml">
+      <configuration name="WhichAreInTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="FindTheOddIntSpec - 2019.06.23 at 19h 59m 51s.xml">
-      <configuration name="FindTheOddIntSpec" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="WhichAreInTest - 2019.06.24 at 00h 58m 05s.xml">
+      <configuration name="WhichAreInTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="FindTheOddIntSpec - 2019.06.23 at 20h 00m 21s.xml">
-      <configuration name="FindTheOddIntSpec" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="WhichAreInTest - 2019.06.24 at 00h 58m 31s.xml">
+      <configuration name="WhichAreInTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="FindTheOddIntSpec - 2019.06.23 at 20h 01m 06s.xml">
-      <configuration name="FindTheOddIntSpec" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="WhichAreInTest - 2019.06.24 at 00h 58m 43s.xml">
+      <configuration name="WhichAreInTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="FindTheOddIntSpec - 2019.06.23 at 20h 02m 08s.xml">
-      <configuration name="FindTheOddIntSpec" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="WhichAreInTest - 2019.06.24 at 00h 59m 37s.xml">
+      <configuration name="WhichAreInTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="FindTheOddIntSpec - 2019.06.23 at 20h 08m 40s.xml">
-      <configuration name="FindTheOddIntSpec" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="WhichAreInTest - 2019.06.24 at 01h 00m 31s.xml">
+      <configuration name="WhichAreInTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="FindTheOddIntSpec - 2019.06.23 at 20h 11m 41s.xml">
-      <configuration name="FindTheOddIntSpec" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="WhichAreInTest - 2019.06.24 at 01h 01m 10s.xml">
+      <configuration name="WhichAreInTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="FindTheOddIntSpec - 2019.06.23 at 20h 12m 03s.xml">
-      <configuration name="FindTheOddIntSpec" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="WhichAreInTest - 2019.06.24 at 01h 01m 41s.xml">
+      <configuration name="WhichAreInTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="FindTheOddIntSpec - 2019.06.23 at 20h 12m 23s.xml">
-      <configuration name="FindTheOddIntSpec" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="WhichAreInTest - 2019.06.24 at 01h 07m 54s.xml">
+      <configuration name="WhichAreInTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222928000" />
+    <option name="totallyTimeSpent" value="227769000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.14765458" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.14925373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -830,7 +817,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50121063" side_tool="true" weight="0.071104385" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924013" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.46588486" visible="true" weight="0.28710726" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.46375266" weight="0.28710726" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49733475" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -839,10 +826,10 @@
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" sideWeight="0.49848485" weight="0.49668875" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.53411514" side_tool="true" visible="true" weight="0.28710726" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.5570362" side_tool="true" visible="true" weight="0.31744313" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.45095947" weight="0.31744313" />
+      <window_info active="true" anchor="bottom" id="Messages" order="14" sideWeight="0.44296375" visible="true" weight="0.31744313" />
       <window_info anchor="bottom" id="Documentum" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -883,7 +870,8 @@
     <MESSAGE value="bestia zrobił zadania jak mistrz" />
     <MESSAGE value="wszystkie z cwiczen" />
     <MESSAGE value="ReplaceWithAlphabetPosition CodeWarExercise done" />
-    <option name="LAST_COMMIT_MESSAGE" value="ReplaceWithAlphabetPosition CodeWarExercise done" />
+    <MESSAGE value=" 4 things from akka and two codewars" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 4 things from akka and two codewars" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -973,27 +961,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar!/scala/collection/mutable/Stack.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/dyskretna/RPN.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/src/lectures/part4pm/PatternsEverywhere.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar!/scala/package.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
@@ -1219,13 +1186,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/codewars/CamelCase.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/UG/kolos2/aakkkaa.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1273,13 +1233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/codewars/ReplaceWithAlphabetPositionTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1297,10 +1250,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/codewars/FindTheOddInt.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -1314,17 +1274,48 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/myWork/akkaTut/ActorCountDown.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/myWork/akkaTut/AskPattern.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
           <folding>
             <element signature="e#24#69#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/codewars/WhichAreInTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#18#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/codewars/CamelCase.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/codewars/DigPow.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/codewars/WhichAreIn.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
