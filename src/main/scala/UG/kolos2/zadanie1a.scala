@@ -2,7 +2,7 @@ package UG.kolos2
 
 import scala.io.Source
 
-object zadanie1 extends App{
+object zadanie1a extends App{
 
   val numbers: Seq[Int] = Source.fromFile("src\\main\\zadania\\liczby.txt").getLines.toList.
     map((s: String) => s.toInt)

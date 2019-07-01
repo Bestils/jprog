@@ -5,14 +5,14 @@ import akka.util.Timeout
 
 import scala.concurrent.duration._
 
-object HierarchyExample extends App{
+object SupervisorExample extends App{
 
   case object CreateChild
   case object  SignalChildren
   case object  PrintSignal
 
   class ParentActor extends  Actor {
-
+var number =9
     private  val children = collection.mutable.Buffer[ActorRef]()
     def receive ={
       case CreateChild =>
