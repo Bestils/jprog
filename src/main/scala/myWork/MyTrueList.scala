@@ -13,23 +13,18 @@ abstract class MyTrueList[+A] {
   def printElements: String
 
   override def toString: String = "[" + printElements + "]"
+  //HOFS
+  def map[B](transformer: A => B): MyTrueList[B]
 
-  def map[B](transformer: MyTransformer[A, B]): MyTrueList[B]
+  def filter(predicate: A => Boolean ): MyTrueList[A]
 
-  def filter(predicate: MyPredicate[A]): MyTrueList[A]
-
-  def flatMap[B](transformer: MyTransformer[A, MyTrueList[B]]): MyTrueList[B]
+  def flatMap[B](transformer: A => MyTrueList[B]): MyTrueList[B]
 // concatenation
   def ++[B >: A](list: MyTrueList[B]): MyTrueList[B]
+
+
 }
 
-trait MyPredicate[-T] {
-  def test(t: T): Boolean
-}
-
-trait MyTransformer[-A, B] {
-  def transform(a: A): B
-}
 
 
 case object Empty extends MyTrueList[Nothing] {
@@ -43,11 +38,11 @@ case object Empty extends MyTrueList[Nothing] {
 
   def printElements: String = ""
 
-  def map[B](transformer: MyTransformer[Nothing, B]): MyTrueList[B] = Empty
+  def map[B](transformer: Nothing => B): MyTrueList[B] = Empty
 
-  def filter(predicate: MyPredicate[Nothing]): MyTrueList[Nothing] = Empty
+  def filter(predicate: Nothing => Boolean): MyTrueList[Nothing] = Empty
 
-  def flatMap[B](transformer: MyTransformer[Nothing, MyTrueList[B]]): MyTrueList[B] = Empty
+  def flatMap[B](transformer: Nothing  => MyTrueList[B]): MyTrueList[B] = Empty
 
   def++[B >: Nothing](list: MyTrueList[B]):MyTrueList[B]=list
 
@@ -69,18 +64,18 @@ case class Const[+A](h: A, t: MyTrueList[A]) extends MyTrueList[A] {
 
   def++[B >: A](list: MyTrueList[B]):MyTrueList[B]=new Const(h, t ++ list)
 
-  def map[B](transformer: MyTransformer[A, B]): MyTrueList[B] = {
-    new Const(transformer.transform(h), t.map(transformer))
+  def map[B](transformer: A=>B): MyTrueList[B] = {
+    new Const(transformer(h), t.map(transformer))
 
   }
 
-  def filter(predicate: MyPredicate[A]): MyTrueList[A] = {
-    if (predicate.test(h)) new Const(h, t.filter(predicate))
+  def filter(predicate: A => Boolean): MyTrueList[A] = {
+    if (predicate(h)) new Const(h, t.filter(predicate))
     else t.filter(predicate)
   }
 
-  def flatMap[B](transformer: MyTransformer[A, MyTrueList[B]]): MyTrueList[B] =
-    transformer.transform(h) ++ t.flatMap(transformer)
+  def flatMap[B](transformer: A => MyTrueList[B]): MyTrueList[B] =
+    transformer(h) ++ t.flatMap(transformer)
 }
 
 case object ListTest extends App {
@@ -91,16 +86,14 @@ case object ListTest extends App {
   println(listOfIntegers.toString)
   println(listOfStrings.toString)
 
-  println(listOfIntegers.map(new MyTransformer[Int,Int] {
-    override def transform(a: Int): Int = a*2
-  }))
-  println(listOfIntegers.filter(new MyPredicate[Int] {
-    override def test(t: Int): Boolean = t % 2 == 0
-  }).toString)
+  println(listOfIntegers.map(_*2))
+
+  println(listOfIntegers.filter( _% 2 == 0
+  ).toString)
 
   println(listOfIntegers ++ anotherListOfIntegers)
-  println(listOfIntegers.flatMap(new MyTransformer[Int, MyTrueList[Int]] {
-    override def transform(a: Int): MyTrueList[Int] = new Const(a, new Const(a+1,Empty))
+  println(listOfIntegers.flatMap((a: Int) => new Const(a, new Const(a + 1, Empty))).toString)
 
-  }).toString)
+  def concat(a:String,b:String) : String = {a+b}
+
 }
