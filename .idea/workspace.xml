@@ -2,52 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00e700f1-5c32-4b4f-8536-32ace7bd593a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/myWork/Generics.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/myWork/MyTrueList.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/src/exercises/MyList2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/myWork/MyGenericAnimalsList.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/UG/kolos2/zadanie1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/UG/kolos2/zadanie1a.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/UG/kolos2/zadanie1/scala/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/UG/kolos2/zadanie1/scala/Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/codewars/FindTheOddInt.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/codewars/FindTheOddInt.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/myWork/akkaTut/SupervisorExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/myWork/akkaTut/SupervisorExample.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/myWork/colkolcop.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/myWork/colkolcop.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/myWork/MyTrueList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/myWork/MyTrueList.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/src/exercises/MyList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/src/exercises/MyList.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/src/lectures/part4pm/AllThePatterns.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/src/lectures/part4pm/AllThePatterns.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/kolos2/Komunikaty$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/kolos2/Komunikaty$Init$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/kolos2/Komunikaty$Init.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/kolos2/Komunikaty$Koniec$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/kolos2/Komunikaty$Odpowiedzi$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/kolos2/Komunikaty$Odpowiedzi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/kolos2/Komunikaty$Przyjmij$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/kolos2/Komunikaty$Przyjmij.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/kolos2/Komunikaty$Pytania$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/kolos2/Komunikaty$Wynik$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/kolos2/Komunikaty$Wynik.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/kolos2/Komunikaty.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/kolos2/Main$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/kolos2/Main$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/kolos2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/kolos2/Nauczyciel$$anonfun$przyjmijOdpowiedzi$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/kolos2/Nauczyciel$$anonfun$receive$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/kolos2/Nauczyciel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/kolos2/Uczen$$anonfun$receive$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/kolos2/Uczen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/kolos2/Wychowawca$$anonfun$receive$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/kolos2/Wychowawca$$anonfun$zbieranieOcen$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/UG/kolos2/Wychowawca.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/codewars/FindTheOddInt$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/codewars/FindTheOddInt$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/src/exercises/Cons$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/src/exercises/Cons.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/src/exercises/Empty$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/src/exercises/Empty.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/src/exercises/ListTest$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/src/exercises/ListTest$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/src/exercises/ListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/src/exercises/MyList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/src/lectures/part4pm/AllThePatterns$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/src/lectures/part4pm/AllThePatterns$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/src/lectures/part4pm/AllThePatterns.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -104,28 +62,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/myWork/colkolcop.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/src/exercises/MyList.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="109" lean-forward="true" selection-end-line="125" />
+            <state relative-caret-position="483">
+              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/myWork/MyGenericAnimalsList.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/myWork/MyTrueList.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+            <state relative-caret-position="391">
+              <caret line="71" column="54" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -156,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/src/exercises/MyList2.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+            <state relative-caret-position="731">
+              <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -171,18 +129,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/myWork/Generics.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/src/exercises/Maybe.scala">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/scala/myWork/sclac.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2074">
+              <caret line="122" column="3" selection-start-line="122" selection-start-column="3" selection-end-line="122" selection-end-column="3" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -190,9 +152,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Scala Object" />
         <option value="Package Object" />
         <option value="ScalaTest Class" />
+        <option value="Scala Object" />
       </list>
     </option>
   </component>
@@ -209,8 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie6.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/UG/cw8/zadanie1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw7/zadanie3.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/UG/cw8/Zadanie3.scala" />
@@ -255,17 +215,19 @@
         <option value="$PROJECT_DIR$/src/main/scala/myWork/akkaTut/SupervisorExample.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/myWork/colkolcop.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/src/exercises/MyTrueList.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/src/exercises/MyList.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/myWork/MyTrueList.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/src/exercises/MyList2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/src/lectures/part4pm/AllThePatterns.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/myWork/Generics.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/myWork/akkaTut/MyGenericAnimalsList.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/src/exercises/MyList.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/myWork/MyGenericAnimalsList.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/myWork/MyTrueList.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="529" />
-    <option name="y" value="-14" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="556" />
+    <option name="y" value="-8" />
     <option name="width" value="1376" />
     <option name="height" value="744" />
   </component>
@@ -275,6 +237,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -353,7 +316,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -361,7 +323,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562011906602" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562148032489" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
     <property name="last_opened_file_path" value="$USER_HOME$/Exercism/scala/sum-of-multiples" />
@@ -370,7 +332,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -421,7 +383,7 @@
       <module name="FIRST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myWork.akkaTut.*" />
+          <option name="PATTERN" value="myWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -434,7 +396,7 @@
       <module name="FIRST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myWork.akkaTut.*" />
+          <option name="PATTERN" value="myWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -612,7 +574,9 @@
       <workItem from="1561500159380" duration="905000" />
       <workItem from="1561573681377" duration="686000" />
       <workItem from="1561630045568" duration="980000" />
-      <workItem from="1562008866822" duration="3529000" />
+      <workItem from="1562008866822" duration="5800000" />
+      <workItem from="1562054673978" duration="1640000" />
+      <workItem from="1562134403405" duration="6475000" />
     </task>
     <task id="LOCAL-00001" summary="a Lot work later , make 2 ug packages , some codewars">
       <created>1554645250561</created>
@@ -810,7 +774,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561399674943</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="MyTrueList First big Step">
+      <created>1562015729947</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1562015729947</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -846,13 +817,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248891000" />
+    <option name="totallyTimeSpent" value="259277000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.15724947" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.16044776" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -861,7 +832,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50121063" side_tool="true" weight="0.071104385" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924013" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4610874" visible="true" weight="0.28670636" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.46055436" visible="true" weight="0.30552545" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49733475" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -870,10 +841,10 @@
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" sideWeight="0.49848485" weight="0.49668875" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5389126" side_tool="true" visible="true" weight="0.28670636" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.53944564" side_tool="true" visible="true" weight="0.30552545" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4339019" weight="0.31646827" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.43230277" weight="0.3163597" />
       <window_info anchor="bottom" id="Documentum" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -892,7 +863,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add Junit dependency. Make tribonacii" />
     <MESSAGE value="finished tribonacii" />
     <MESSAGE value="5 AND 6 FROM 3 ; 1 AND 2 FROM 4" />
     <MESSAGE value="3 in 4 ended" />
@@ -917,7 +887,8 @@
     <MESSAGE value="AskPattern is done" />
     <MESSAGE value="hierarchy done" />
     <MESSAGE value="szef z wykładu" />
-    <option name="LAST_COMMIT_MESSAGE" value="szef z wykładu" />
+    <MESSAGE value="MyTrueList First big Step" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyTrueList First big Step" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1007,22 +978,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/scala/codewars/KataTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/codewars/DigPowTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/codewars/CamelCaseTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1109,13 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/myWork/sclac.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1327,10 +1275,11 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/src/exercises/Maybe.scala">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/src/exercises/MyList.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/myWork/akkaTut/MyGenericAnimalsList.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/myWork/MethodNotations.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="109" lean-forward="true" selection-end-line="125" />
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1344,24 +1293,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/myWork/OOBasics.scala">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/myWork/MethodNotations.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/myWork/MyTrueList.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/src/exercises/MyList2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        <state relative-caret-position="731">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1374,8 +1309,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/myWork/Generics.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/myWork/sclac.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2074">
+          <caret line="122" column="3" selection-start-line="122" selection-start-column="3" selection-end-line="122" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/src/exercises/MyList.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/myWork/MyGenericAnimalsList.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/myWork/MyTrueList.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="71" column="54" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
         </state>
       </provider>
     </entry>
