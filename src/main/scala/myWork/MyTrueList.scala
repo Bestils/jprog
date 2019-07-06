@@ -1,5 +1,7 @@
 package myWork
 
+import scala.collection.script.Start
+
 abstract class MyTrueList[+A] {
 
   def head: A
@@ -21,6 +23,17 @@ abstract class MyTrueList[+A] {
   def flatMap[B](transformer: A => MyTrueList[B]): MyTrueList[B]
 // concatenation
   def ++[B >: A](list: MyTrueList[B]): MyTrueList[B]
+
+  def foreach(f:A=>Unit) :Unit
+  def sort (c:(A,A)=>Int) : MyTrueList[A]
+  def zipWith[B,C](list:MyTrueList[B])(a:(A,B)=>C):MyTrueList[C]
+
+  def fold[B](starts:B)(operator:(A,B)=>B):B
+
+  def toCurry(f:(Int,Int)=>Int):(Int=>Int=>Int)
+  def fromCurry(f:(Int=>Int=>Int)):((Int,Int)=>Int)
+  def compose(f: Int => Int, g: Int=>Int) : Int =>Int
+  def andThen(f: Int => Int, g: Int=>Int) : Int =>Int
 
 
 }
@@ -46,7 +59,26 @@ case object Empty extends MyTrueList[Nothing] {
 
   def++[B >: Nothing](list: MyTrueList[B]):MyTrueList[B]=list
 
+  def foreach(f: Nothing => Unit): Unit = ()
 
+
+
+   def sort(c: (Nothing, Nothing) => Int): MyTrueList[Nothing] = Empty
+
+   def zipWith[B, C](list: MyTrueList[B])(a: (Nothing, B) => C): MyTrueList[Nothing] = {
+     if  (!list.isEmpty) throw new RuntimeException("List do not have the same length")
+     else Empty
+   }
+
+  def fold[B](starts: B)(operator: (Nothing, B) => B): B = starts
+
+   def toCurry(f: (Int, Int) => Int): Int => Int => Int = x => y => f(x,y)
+
+   def fromCurry(f: Int => Int => Int): (Int, Int) => Int = (x,y) => f(x)(y)
+
+  def compose(f: Int => Int, g: Int => Int): Int => Int = x=> f(g(x))
+
+  def andThen(f: Int => Int, g: Int => Int): Int => Int = x=> g(f(x))
 }
 
 case class Const[+A](h: A, t: MyTrueList[A]) extends MyTrueList[A] {
@@ -64,6 +96,8 @@ case class Const[+A](h: A, t: MyTrueList[A]) extends MyTrueList[A] {
 
   def++[B >: A](list: MyTrueList[B]):MyTrueList[B]=new Const(h, t ++ list)
 
+
+
   def map[B](transformer: A=>B): MyTrueList[B] = {
     new Const(transformer(h), t.map(transformer))
 
@@ -76,6 +110,40 @@ case class Const[+A](h: A, t: MyTrueList[A]) extends MyTrueList[A] {
 
   def flatMap[B](transformer: A => MyTrueList[B]): MyTrueList[B] =
     transformer(h) ++ t.flatMap(transformer)
+
+  def foreach(f: A => Unit): Unit = {
+    f(h)
+    t.foreach(f)
+
+  }
+
+  def sort(c: (A, A) => Int): MyTrueList[A] = {
+    def insert(x : A, sortedList: MyTrueList[A]): MyTrueList[A] =
+      if(sortedList.isEmpty) new Const(x,Empty)
+      else if(c(x,sortedList.head) <0)new Const(x,sortedList)
+      else new Const (sortedList.head, insert(x, sortedList.tail))
+      val sortedTail = t.sort(c)
+      insert(h,sortedTail)
+
+  }
+
+  def zipWith[B, C](list: MyTrueList[B])(zip: (A, B) => C): MyTrueList[C] = {
+    if  (list.isEmpty) throw new RuntimeException("List do not have the same length")
+    else new Const(zip(h,list.head),t.zipWith(list.tail)(zip))
+  }
+
+
+  def fold[B](starts: B)(operator: (A, B) => B): B  = {
+    val newStart = operator(h,starts)
+    t.fold(newStart)(operator)
+  }
+  def toCurry(f: (Int, Int) => Int): Int => Int => Int = x => y => f(x,y)
+
+  def fromCurry(f: Int => Int => Int): (Int, Int) => Int =  (x,y) => f(x)(y)
+
+  def compose(f: Int => Int, g: Int => Int): Int => Int = x=> f(g(x))
+
+  def andThen(f: Int => Int, g: Int => Int): Int => Int = x=> g(f(x))
 }
 
 case object ListTest extends App {
